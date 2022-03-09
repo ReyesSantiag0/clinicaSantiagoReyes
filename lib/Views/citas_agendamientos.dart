@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 
+import 'cardViews/cardviewscitas.dart';
+
 class ListView5 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -45,30 +47,7 @@ class ListView5 extends StatelessWidget {
         centerTitle: true,
         title: Text('Cita #1'),
       ),
-      body: ListView(
-        children: [
-          Text('\n- Fecha: 28/02/2022 \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Hora: 12:30 pm \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Tratamiento: Ortodoncia \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Doctor: Adrés Ortiz \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-        ],
-      ),
+      body: Mycard1(),
     );
   }
 
@@ -78,30 +57,7 @@ class ListView5 extends StatelessWidget {
         centerTitle: true,
         title: Text('Cita #2'),
       ),
-      body: ListView(
-        children: [
-          Text('\n- Fecha: 30/03/2022 \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Hora: 03:30 pm \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Tratamiento: Ortodoncia \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Doctor: Adrés Ortiz \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-        ],
-      ),
+      body: Micard2(),
     );
   }
 
@@ -111,30 +67,7 @@ class ListView5 extends StatelessWidget {
         centerTitle: true,
         title: Text('Cita #3'),
       ),
-      body: ListView(
-        children: [
-          Text('\n- Fecha: 15/04/2022 \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Hora: 09:30 am \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Tratamiento: Ortodoncia \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Doctor: Adrés Ortiz \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-        ],
-      ),
+      body: Mycard3(),
     );
   }
 }

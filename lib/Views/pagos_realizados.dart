@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 
+import 'cardViews/cardviewspagos.dart';
+
 class ListView6 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -45,30 +47,7 @@ class ListView6 extends StatelessWidget {
         centerTitle: true,
         title: Text('Pago #1'),
       ),
-      body: ListView(
-        children: [
-          Text('\n- Tratamiento: Ortodoncia \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Fecha del pago: 28/11/2021 \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Medio de pago: Efectivo \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Valor: 50.000 \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-        ],
-      ),
+      body: Mycard1(),
     );
   }
 
@@ -78,30 +57,7 @@ class ListView6 extends StatelessWidget {
         centerTitle: true,
         title: Text('Pago #2'),
       ),
-      body: ListView(
-        children: [
-          Text('\n- Tratamiento: Ortodoncia \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Fecha del pago: 11/01/2022 \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Medio de pago: Efectivo \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Valor: 50.000 \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-        ],
-      ),
+      body: Mycard2(),
     );
   }
 
@@ -111,30 +67,7 @@ class ListView6 extends StatelessWidget {
         centerTitle: true,
         title: Text('Pago #3'),
       ),
-      body: ListView(
-        children: [
-          Text('\n- Tratamiento: Ortodoncia \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Fecha del pago: 07/02/2022 \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Medio de pago: Efectivo \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-          Text('- Valor: 50.000 \n',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
-                  color: Colors.blue)),
-        ],
-      ),
+      body: Mycard3(),
     );
   }
 }
